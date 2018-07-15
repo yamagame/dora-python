@@ -9,6 +9,8 @@ import dora
 
 host = "http://localhost:3090/"
 
+robo = dora.Robot()
+
 robo.textToSpeech("こんにちは")
 robo.textToSpeech("わたしは、おしゃべりができるダンボールロボットです")
 robo.wait(1)

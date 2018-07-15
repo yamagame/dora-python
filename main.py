@@ -1,7 +1,8 @@
 import dora
-import urllib.error
 
 host = "http://localhost:3090/"
+
+robo = dora.Robot()
 
 robo.textToSpeech("こんにちは")
 robo.textToSpeech("わたしは、おしゃべりができるダンボールロボットです")
